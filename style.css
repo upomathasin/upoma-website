@@ -1,0 +1,114 @@
+h1{
+    font-size: 50px;
+    
+}
+h2{
+    font-size:40px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin: 0;
+}
+ p {
+color: dimgray;
+}
+.highlight{
+color:orange
+}
+.half {
+    width: 40%;
+    float: left;
+    margin-left:3%;
+    padding-left: 1%;
+}
+.half img {
+width: 100% ;
+}
+.top{
+   background-image: url(header-bg.png);
+   background-repeat: no-repeat;
+}
+section { 
+    height:500px;
+    padding-bottom: 100px;
+}
+.link-button {
+    text-decoration: none;
+    background-color:red;
+    padding:10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+
+}
+.dream
+{
+    background-image: url(biography-bg.png);
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.single-exper {
+box-shadow: 10px 10px rgb(156, 155, 155);
+border-radius: 5px;
+height: 80%;
+background-color:white;
+
+}
+.experience {
+background-image: url(footer-bg.png);
+background-repeat: no-repeat;
+background-position:left;
+}
+#full
+{
+    border-left: 7px solid ;
+    border-image:linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#empty
+{
+    border-left: 7px solid ;
+    border-image:linear-gradient(180deg,blue,cyan) ;
+
+      border-image-slice: 1;
+
+}
+.pic {
+    float: left;
+    border: 3px solid white;
+    margin-left: 250px;
+    padding: 3%;
+}
+.work
+{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.client
+{
+    text-align: center;
+    background-image: url(footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.color{
+    color: white;
+    background-image: linear-gradient(180deg,rgb(233, 25, 139),rgb(182, 83, 141) );
+    
+    
+    width:30%;
+    border: 3px solid white;
+   
+    padding: 2%;
+    border-radius: 15px 15px 15px 15px ;
+    padding: 1px;
+    
+}
+#foot{
+    background-image: url(footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
